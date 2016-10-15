@@ -1,0 +1,97 @@
+/* app css stylesheet */
+
+
+.small-pad-top{
+    padding-top: 10px;
+}
+.pad-top{
+    padding-top: 20px;
+}
+.mar-top{
+    margin-top: 20px;
+}
+
+.gray-text{
+    color: gray;
+}
+
+.ng-hide {
+    /* this is just another form of hiding an element */
+    display: block!important;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+
+
+.card {
+    background-color: #fff;
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    box-shadow: 0 1px 3px #b4b4b4;
+    padding: 8px;
+}    
+
+body{
+
+    background-color: #f0f0f0;
+}
+
+.title{
+    color: #b2b2b2;
+    margin-top: 8px;
+
+}
+
+.temp-big{
+    font-size: 40px;
+    color: #888;
+}
+
+.never-hide{
+    /* overrode collapse and cascaded so i dont have to write js */
+    display: block !important;
+    min-height: 60px;
+}
+.never-hide.collapsing{
+    height: inherit;
+    position: inherit;
+    overflow: auto;
+}
+
+.collapse.in .inverse-color, .collapse .normal-color{
+    color: blue;
+}
+.collapse.in .normal-color, .collapse .inverse-color{
+    color: black;
+}
+
+.never-hide.collapsing .normal
+{
+    display:  none;
+}
+
+.collapse.in .inverse, 
+.collapse .normal{
+    display:  none;
+
+}
+/*.collapse.collapsing .normal,*/
+
+.collapse.in .normal, .collapse .inverse{
+    display: inline-block;
+}
+
+
+.wrap-controls{
+    top: -17px;
+    position: relative;
+    cursor: pointer;
+}
